@@ -1,0 +1,68 @@
+# Page settings
+
+baseurl = "https://example.org/"
+languageCode = "en-us"
+title = "Yogendra Gurung"
+copyright = "© Yogendra Gurung"
+disableKinds = ["taxonomy", "taxonomyTerm"]
+theme = "hugo-theme-doors"
+
+disableRSS = true
+disableSitemap = true
+disable404 = false
+
+# Site information
+[params]
+description = "Perhaps something like I discovered that I was a visual learner while I was an IT student so I decided to choose graphics designing and my work is the demonstration of my skills at using tools such as cutvsture tool shape builder tool etc"
+ogimage = "images/work1.jpg"
+
+# Project section
+[params.projects]
+
+[[params.projects.list]]
+title = "Illustrator"
+description = "These are some of the images I made in Illustrator."
+image = "images/work1.jpg"
+w = "780"
+h = "518"
+
+# Subproject section
+[params.subprojects]
+
+[[params.subprojects.list]]
+title = "Random Gloves"
+description = "Lorem ipsum dolor sit amet"
+image = "images/gloves.png"
+w = "780"
+h = "522"
+
+[[params.subprojects.list]]
+title = "Twice Logo"
+description = "Consectetur adipiscing elit"
+image = "images/twice.png"
+w = "780"
+h = "518"
+
+[[params.subprojects.list]]
+title = "Random T-Sgirt"
+description = "Sed do eiusmod tempor incididunt"
+image = "images/tshirt.png"
+w = "780"
+h = "518"
+
+[[params.subprojects.list]]
+title = "Random Cap"
+description = "Sed do eiusmod tempor incididunt"
+image = "images/Cap.png"
+w = "780"
+h = "518"
+
+# Contact section
+[params.contact]
+description = "I would like to hear from you. Please contact me via email or social media."
+twitter = "#"
+facebook = ""
+instagram = "#"
+github = ""
+email = "#"
+
